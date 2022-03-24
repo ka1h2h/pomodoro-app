@@ -1,0 +1,71 @@
+.counter {
+    margin-top: 80px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btnStart { 
+    position: absolute;
+    bottom: 110px;
+    left: 50px;
+  }
+  
+  .btnReset {
+    position: absolute;
+    bottom: 110px;
+    right: 50px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    bottom: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 15px;
+    background-color: #637f8b;
+  }
+  
+  
+  .footer button {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 0px solid;
+  }
+  
+  .footer p {
+    font-family: 'Old Standard TT', serif;
+    white-space: nowrap;
+    background-color: #637f8b;
+    color: #C4DFE6
+  }
+  
+  img {
+    background-color: #637f8b;
+  }
+  
+  .btnAddTime {
+   position: absolute;
+   top: 45px;
+   left: 115px;
+  }
+  
+  .min {
+    position: absolute;
+    top: 7px;
+    left: 43px;
+    white-space: nowrap;
+  }
+  
+  .btnRemoveTime {
+    position: absolute;
+    top: 45px;
+    right: 110px;
+  }
+
+  

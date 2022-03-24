@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(bgimg.jpg);
+  background-size: cover;
+}
+
+.container {
+  border: 0.5px solid #607a87;
+  border-radius: 15px;
+  width: 350px;
+  height: 350px;
+  background-color: #1b3846;
+  position: relative;
+}
+
+span {
+  background-color: transparent;
+  font-family: 'Old Standard TT', serif;
+  color: #C4DFE6
+}
+
+button {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.1s;
+}
+
+button {
+  font-family: 'Old Standard TT', serif;
+  font-weight: bold;
+  color: #1b3846;
+  border: 1px solid #607a87;
+  border-radius: 10px;
+  background-color: #C4DFE6;
+  height: 30px;
+  width: 50px;
+}
+
+button:hover {
+  background-color: #637f8b; /* Green */
+  color: white;
+}
+
+h2 {
+  font-family: 'Old Standard TT', serif;
+  font-size: 80px;
+  background-color: transparent;
+  color: #C4DFE6;
+}
+
+
+
